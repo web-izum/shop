@@ -2,6 +2,8 @@
 
 namespace shop\base;
 
+use shop\DataBase;
+
 abstract class Model
 {
     public $attributes = [];
@@ -9,6 +11,6 @@ abstract class Model
     public $rules = [];
 
     public function __construct() {
-
+        DataBase::instanse();
     }
 }

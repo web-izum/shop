@@ -10,6 +10,5 @@
 <body>
     <h1>Layout Default</h1>
     <?= $content ?>
-    <?= $name ?>
 </body>
 </html>
